@@ -21,15 +21,15 @@ if __name__ == '__main__':
     C155-161 D220-230
     E140-150 F140-150
     """
-    pprint.pprint(temperatures.temps, depth=3)
+    pprint.pprint(temperatures.temps, sort_dicts=False)
     search.search_critical(
         recipes.tyo_kagayakijueki,  # レシピ名
-        "2000c",  # 温度
+        "1400c",  # 温度
         {  # 数値
-            'A': 0,
-            'B': 0,
-            'C': 0,
-            'D': 0,
-            'E': 0,
-            'F': 0}
+            'A': 147,
+            'B': 99,
+            'C': 138,
+            'D': 105,
+            'E': 147,
+            'F': 78}
     )
